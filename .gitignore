@@ -1,0 +1,121 @@
+# ============================================================
+# Editors & OS
+# ============================================================
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ============================================================
+# SolidWorks
+# ============================================================
+~$*.SLDPRT
+~$*.SLDASM
+
+# ============================================================
+# FreeCAD
+# ============================================================
+*.fcstd1
+*.FCStd1
+*.fcstd2
+*.FCStd2
+*.FCBak
+
+# ============================================================
+# KiCad
+# ============================================================
+*.000
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*-cache/
+*-bak
+_autosave-*
+\#auto_saved_files\#
+fp-info-cache
+.history
+~*.lck
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Local project settings
+*.kicad_prl
+
+# ============================================================
+# Altium
+# ============================================================
+__Previews/
+History/
+Project Logs for*/
+Project Outputs for*/
+
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.PcbDoc.htm
+*.ldb
+
+*.Drc
+*.Rep
+*.Rpt
+*.OutJob
+*.BomDoc
+
+# ============================================================
+# AutoCAD
+# ============================================================
+*.sv$
+*.ac$
+*.dwl
+*.dwl2
+*.plt
+*.pc3
+*.pmp
+
+# ============================================================
+# Visual Studio / .NET / Python / Autodesk
+# ============================================================
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
+*_data/
+.vs/
+*.vspscc
+*.vssscc
+
+# NuGet
+**/packages/*
+!**/packages/build/
+
+# Compiled outputs (intentionally broad for build projects)
+*.pdb
+*.ilk
+*.obj
+*.pch
+*.dll
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ============================================================
+# Other temporary files
+# ============================================================
+*.bak
+*.tmp
